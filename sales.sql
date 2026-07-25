@@ -16,3 +16,10 @@ WHERE amount > 0;
 
 SELECT *
 FROM sales;
+
+-- Temporary sales analysis query
+SELECT
+    product_name,
+    SUM(sales_amount) AS total_sales
+FROM sales
+GROUP BY product_name;
