@@ -13,3 +13,6 @@ SELECT
     order_date
 FROM sales
 WHERE amount > 0;
+
+SELECT *
+FROM sales;
